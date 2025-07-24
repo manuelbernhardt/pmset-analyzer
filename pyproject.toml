@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pmset-analyzer"
+version = "0.1.0"
+description = "Analyze macOS sleep logs from pmset -g output"
+authors = [
+    {name = "Manuel Bernhardt", email = "manuel@bernhardt.io"}
+]
+license = {text = "Apache-2.0"}
+dependencies = []
+requires-python = ">=3.8"
+
+[project.scripts]
+pmset-analyzer = "pmset_analyzer:main" 
