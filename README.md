@@ -23,7 +23,7 @@ uv sync
 First, generate a sleep log from your Mac:
 
 ```bash
-pmset -g > sleep-log.txt
+pmset -g log > sleep-log.txt
 ```
 
 ### Analyze the log
